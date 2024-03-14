@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "InCludeDllSayHello/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/QuoteDllSay.dll": {},
+          "lib/Test_NuGet_Publish.dll": {}
+        },
+        "runtime": {
+          "lib/QuoteDllSay.dll": {},
+          "lib/Test_NuGet_Publish.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InCludeDllSayHello/1.0.0": {
+      "sha512": "EYXFN0d0k39+RZ7Ujl2ro/iXh9CymNEww8q/OSRixJtDWbibWvqg8g1By79k5VSGwcNt3ZsgYkDhezOYLqOBeg==",
+      "type": "package",
+      "path": "includedllsayhello/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "includedllsayhello.1.0.0.nupkg.sha512",
+        "includedllsayhello.nuspec",
+        "lib/QuoteDllSay.dll",
+        "lib/Test_NuGet_Publish.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "InCludeDllSayHello >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "D:\\HWNuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\HopeHost\\source\\repos\\ConsoleApp11\\ConsoleApp11\\ConsoleApp11.csproj",
+      "projectName": "ConsoleApp11",
+      "projectPath": "C:\\Users\\HopeHost\\source\\repos\\ConsoleApp11\\ConsoleApp11\\ConsoleApp11.csproj",
+      "packagesPath": "D:\\HWNuGetPackages",
+      "outputPath": "C:\\Users\\HopeHost\\source\\repos\\ConsoleApp11\\ConsoleApp11\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\HopeHost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "http://192.168.0.2:8081/repository/nuget-hosted/": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "InCludeDllSayHello": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "正在通过 “HTTP” 源“http://192.168.0.2:8081/repository/nuget-hosted/”运行“restore”操作。将来的版本中将删除非 HTTPS 访问权限。请考虑迁移到 “HTTPS” 源。"
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“InCludeDllSayHello 1.0.0”。此包可能与项目不完全兼容。",
+      "libraryId": "InCludeDllSayHello",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

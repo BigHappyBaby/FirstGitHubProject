@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "CBZ+rfkH6BtKsjaajKCVmqTMKyafTzIMQqKXiJgpiyIDr95S4a4EBLfKdeCAeb8539BjXdeAJ/uZkfbMOp3i+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HopeHost\\source\\repos\\ConsoleApp11\\ConsoleApp11\\ConsoleApp11.csproj",
+  "expectedPackageFiles": [
+    "D:\\HWNuGetPackages\\includedllsayhello\\1.0.0\\includedllsayhello.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "正在通过 “HTTP” 源“http://192.168.0.2:8081/repository/nuget-hosted/”运行“restore”操作。将来的版本中将删除非 HTTPS 访问权限。请考虑迁移到 “HTTPS” 源。"
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“InCludeDllSayHello 1.0.0”。此包可能与项目不完全兼容。",
+      "libraryId": "InCludeDllSayHello",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

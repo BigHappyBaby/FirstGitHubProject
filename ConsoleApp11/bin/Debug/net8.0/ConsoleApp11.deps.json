@@ -1,0 +1,45 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConsoleApp11/1.0.0": {
+        "dependencies": {
+          "InCludeDllSayHello": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleApp11.dll": {}
+        }
+      },
+      "InCludeDllSayHello/1.0.0": {
+        "runtime": {
+          "lib/QuoteDllSay.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/Test_NuGet_Publish.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp11/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InCludeDllSayHello/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EYXFN0d0k39+RZ7Ujl2ro/iXh9CymNEww8q/OSRixJtDWbibWvqg8g1By79k5VSGwcNt3ZsgYkDhezOYLqOBeg==",
+      "path": "includedllsayhello/1.0.0",
+      "hashPath": "includedllsayhello.1.0.0.nupkg.sha512"
+    }
+  }
+}
